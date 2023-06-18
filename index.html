@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Review Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section class="container-fluid">
+            <div class="title text-center mt-3 mb-3">
+                <h1 class="border border-1 border-danger p-1 m-0">User Review Page</h1>
+                <div class="underline"></div>
+            </div>
+
+
+            <article class="review">
+                <div class="img-container text-center ">
+                    <img id="person-img" class="rounded-circle" src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fG1lbnMlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" width="200px" height="200px" alt="imagemen">
+                </div>
+                <h4 id="author" class="text-center">John Doe</h4> 
+                <p id="job" class="text-center">Senior Developer</p>
+                <div class="">
+                    <p id="info" class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis porro nihil perferendis accusantium magni? Nihil enim dicta alias harum obcaecati rerum, dolor eos eum quod. Illo totam dolores repudiandae ea.
+                        Tempora magnam eius assumenda soluta ut dolorem praesentium animi aut illum eaque. Perferendis nemo magnam reiciendis velit at aspernatur cupiditate cumque hic est, eaque pariatur sunt magni laborum ex quasi?
+                        Autem, reiciendis. Aut recusandae fugit molestias voluptates quibusdam assumenda, voluptas mollitia dolor tenetur quas distinctio atque consectetur sed possimus quia praesentium sunt quos magnam officia ad ab nemo modi! Perspiciatis?
+                        Sint similique aliquid quod explicabo, libero recusandae iusto eos molestias temporibus, dolorum sit non ad consequuntur nam! Aspernatur est autem magnam minus assumenda, ipsam enim illo deserunt ea fuga optio.</p>
+                </div>
+                
+            </article>
+        </section>
+
+        <!-- //lets create 3 buttons prev,next,random -->
+
+        <div class="button-container text-center">
+            <button class="prev-btn btn btn-primary">
+                <i class="bi bi-chevron-double-left"></i>Prev
+            </button>
+
+            <button class="next-btn btn btn-primary">
+                Next<i class="bi bi-chevron-double-right"></i>
+            </button>
+
+            <button class="random-btn btn btn-primary m-1">Click here for Random User</button>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
